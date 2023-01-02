@@ -1,0 +1,35 @@
+*{
+   padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: yellowgreen;
+}
+body.oscuro{
+  color: white;
+   height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(11, 11, 11);
+}
+main{
+font-size: 50px;
+}
+.boton{
+ height: 50px;
+ width: 150px;
+ border-radius: 25px;
+ box-shadow: 0px 0px 10px white;
+
+}
+.boton:hover{
+cursor: grab; 
+ background-color: aqua;
+  color: rgb(73, 46, 11);
+}
